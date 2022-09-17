@@ -13,4 +13,5 @@ import View.Register;
 public interface Controller_Register {
     public void simpan(Register siswa) throws SQLException; 
     public void simpan2(RegisterForm siswa) throws SQLException; 
+    public void sekolah(RegisterForm siswa) throws SQLException; 
 }
